@@ -2,6 +2,8 @@
 
 Pequeño código en PHP que expone una webshell para trabajar de forma más cómoda cuando se logra subir archivos PHP al servidor. El servidor debe poder ejecutar PHP (esto es común cuando nos encontramos servidores Apache).
 
+Debes descargar el archivo `bw.php`, el cual se encuentra ya minificado para ser más ligero.
+
 ![beauty webshell interface](image.png)
 
 El script consiste en una interfaz web que realiza peticiones GET con el comando introducido en el campo de entrada. Este código se ejecuta en el servidor mediante la función `system()` y se imprime el resultado en la misma interfaz gráfica.
